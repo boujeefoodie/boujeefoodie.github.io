@@ -1,6 +1,6 @@
 ## Welcome to Boujee Foodie
 
-## Table of Contents
+### Table of Contents
 * About Boujee Foodie
 * Approach
 * Use Case Ideas
