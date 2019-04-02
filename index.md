@@ -1,10 +1,16 @@
 ## Welcome to Boujee Foodie
 
 ### Table of Contents
-* About Boujee Foodie
-* Approach
-* Use Case Ideas
-* Beyond the Basics
+* [About Boujee Foodie](#about-boujee-foodie)
+* [Approach](#approach)
+* [Use Case Ideas](#use-case-ideas)
+* [Beyond the Basics](#beyond-the-basics)
+
+* [About](#about)
+* [Installation](#installation)
+* [Application Design](#application-design)
+* [Development History](#development-history)
+* [Contact Us](#contact-us)
 
 ### About Boujee Foodie
 * The problem: There are many food choices on campus: campus center, food trucks, Manoa Gardens, Paradise Palms, vending machines, and so forth. Let’s say you have a desire for chinese food today for lunch. What places on campus are serving chinese food menu items today? Alternatively, let’s say that you love the fresh salmon fillet at Campus Center, but that dish is only served once every few weeks. How do you find out on the day that it’s available?
@@ -50,3 +56,9 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Allow students to rate menu items.
 * Integrated map functionality; note that some food trucks change their location over the course of a week.
 * Provide feed of tweets from vendors (some vendors might use Twitter to advertise daily specials and locations.)
+
+### About
+### Installation
+### Application Design
+### Development History
+### Contact Us
