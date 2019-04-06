@@ -1,4 +1,4 @@
-## Welcome to Boujee Foodie
+# Welcome to Boujee Foodie
 
 # Table of Contents
 * [About Boujee Foodie](#about-boujee-foodie)
