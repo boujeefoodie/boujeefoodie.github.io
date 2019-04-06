@@ -75,7 +75,11 @@ Our first milestone consist of:
 https://github.com/boujeefoodie/boujeefoodie/projects/1
 
 ## Contact Us
+
 Jetro Butac: jetro@hawaii.edu 
+
 Ryan Li: ryanli80@hawaii.edu
+
 Kevin Liu: liukevin@hawaii.edu
+
 Jonathan Tu: jltu@hawaii.edu
