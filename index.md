@@ -62,3 +62,18 @@ After implementing the basic functionality, here are ideas for more advanced fea
 ### Application Design
 ### Development History
 ### Contact Us
+
+
+### Milestone 1
+Our first milestone consist of:
+
+* Deployment
+* Mock Up: User Home Page
+* Mock Up: User Profile Page
+* Mock Up: Sign In Page
+* Mock Up: Sign Up Page
+* Landing Page: Middle Menu
+* Landing Page: Top/Footer Menu
+* Updatae Booujee Foodie Homepage
+
+https://github.com/boujeefoodie/boujeefoodie/projects/1
