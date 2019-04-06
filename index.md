@@ -1,18 +1,17 @@
 ## Welcome to Boujee Foodie
 
-### Table of Contents
+# Table of Contents
 * [About Boujee Foodie](#about-boujee-foodie)
-* [Approach](#approach)
-* [Use Case Ideas](#use-case-ideas)
-* [Beyond the Basics](#beyond-the-basics)
-
-* [About](#about)
+ * [Approach](#approach)
+ * [Use Case Ideas](#use-case-ideas)
+ * [Beyond the Basics](#beyond-the-basics)
 * [Installation](#installation)
 * [Application Design](#application-design)
 * [Development History](#development-history)
+ * [Milestone 1: Mockup development](#milestone-1-mockup-development)
 * [Contact Us](#contact-us)
 
-### About Boujee Foodie
+# About Boujee Foodie
 * The problem: There are many food choices on campus: campus center, food trucks, Manoa Gardens, Paradise Palms, vending machines, and so forth. Let’s say you have a desire for chinese food today for lunch. What places on campus are serving chinese food menu items today? Alternatively, let’s say that you love the fresh salmon fillet at Campus Center, but that dish is only served once every few weeks. How do you find out on the day that it’s available?
 
 * The solution: The Manoa Munchie app enables you to login on your phone and determine:
@@ -40,7 +39,7 @@ Possible mockup pages:
 * Foods available right now page
 * Today’s top picks page
 
-### Use Case Ideas
+## Use Case Ideas
 Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
 
 * New user goes to landing page, logs in, gets home page, sets up profile. (How do they learn how system works?)
@@ -48,7 +47,7 @@ Whether or not the following bullet points list all pages or not, the completed 
 * User goes to landing page, logs in, looks for food to buy.
 * User is notified of daily menu items that match their preferences
 
-### Beyond the Basics
+## Beyond the Basics
 After implementing the basic functionality, here are ideas for more advanced features:
 
 * Notify students via email, twitter, SMS when particular food choices are available.
@@ -57,14 +56,11 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Integrated map functionality; note that some food trucks change their location over the course of a week.
 * Provide feed of tweets from vendors (some vendors might use Twitter to advertise daily specials and locations.)
 
-### About
-### Installation
-### Application Design
-### Development History
-### Contact Us
+# Installation
+# Application Design
+# Development History
 
-
-### Milestone 1
+## Milestone 1: Mockup development
 Our first milestone consist of:
 
 * Deployment
@@ -77,3 +73,9 @@ Our first milestone consist of:
 * Updatae Booujee Foodie Homepage
 
 https://github.com/boujeefoodie/boujeefoodie/projects/1
+
+## Contact Us
+Jetro Butac: jetro@hawaii.edu 
+Ryan Li: ryanli80@hawaii.edu
+Kevin Liu: liukevin@hawaii.edu
+Jonathan Tu: jltu@hawaii.edu
