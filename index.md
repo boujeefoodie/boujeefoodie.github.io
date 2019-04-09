@@ -1,20 +1,18 @@
-# Welcome to Boujee Foodie
-
 # Table of Contents
 * [About Boujee Foodie](#about-boujee-foodie)
- * [Approach](#approach)
- * [Use Case Ideas](#use-case-ideas)
- * [Beyond the Basics](#beyond-the-basics)
+  * [Approach](#approach)
+  * [Use Case Ideas](#use-case-ideas)
+  * [Beyond the Basics](#beyond-the-basics)
 * [Installation](#installation)
 * [Application Design](#application-design)
 * [Development History](#development-history)
- * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  * [Milestone 1: Mockup development](#milestone-1-mockup-development)
 * [Contact Us](#contact-us)
 
 # About Boujee Foodie
-* The problem: There are many food choices on campus: campus center, food trucks, Manoa Gardens, Paradise Palms, vending machines, and so forth. Let’s say you have a desire for chinese food today for lunch. What places on campus are serving chinese food menu items today? Alternatively, let’s say that you love the fresh salmon fillet at Campus Center, but that dish is only served once every few weeks. How do you find out on the day that it’s available?
+The problem: There are many food choices on campus: campus center, food trucks, Manoa Gardens, Paradise Palms, vending machines, and so forth. Let’s say you have a desire for chinese food today for lunch. What places on campus are serving chinese food menu items today? Alternatively, let’s say that you love the fresh salmon fillet at Campus Center, but that dish is only served once every few weeks. How do you find out on the day that it’s available?
 
-* The solution: The Manoa Munchie app enables you to login on your phone and determine:
+The solution: The Manoa Munchie app enables you to login on your phone and determine:
   * What specific menu items will be available today at campus center locations;
   * What food is available right now.
   * When a style of food you love is available today.
@@ -57,6 +55,25 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Provide feed of tweets from vendors (some vendors might use Twitter to advertise daily specials and locations.)
 
 # Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, [download a copy of BowFolios](https://github.com/boujeefoodie/boujeefoodie/archive/master.zip), or clone it using git.
+  
+Third, cd into the app/ directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
 # Application Design
 # Development History
 
