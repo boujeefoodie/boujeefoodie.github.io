@@ -24,7 +24,7 @@ Galaxy App: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp
 
 GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoodie)
 
-GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie)
+GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie/boujeefoodie/projects)
 
 
 # Installation
