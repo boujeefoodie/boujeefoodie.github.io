@@ -128,7 +128,7 @@ server/
 ## [Milestone 1](https://github.com/boujeefoodie/boujeefoodie/projects/1): Mockup development
 Our first milestone consist of:
 
-* Deployment
+* [Deployment](https://galaxy.meteor.com/app/boujeefoodie.meteorapp.com)
 
 ![](images/galaxy-deployment.png)
 
