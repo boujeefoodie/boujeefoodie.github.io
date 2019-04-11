@@ -136,7 +136,7 @@ Our first milestone consist of:
 
 ![](images/LandingPage.jpg)
 
-* Mock Up: Navaigation Bar
+* Mock Up: Navigation Bar
 
 ![](images/NavBar.jpg)
 
