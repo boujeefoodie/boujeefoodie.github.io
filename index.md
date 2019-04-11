@@ -132,13 +132,23 @@ Our first milestone consist of:
 
 ![](images/galaxy-deployment.png)
 
+* Mock Up: Navigation Bar
+
+![](images/NavBar.jpg)
+
+
+* Landing Page: Middle Menu
+
+![](images/middlemenu.png)
+
+* Landing Page: Footer Menu
+
+![](images/FooterMenu.jpg)
+
 * Mock Up: User Home Page
 
 ![](images/LandingPage.jpg)
 
-* Mock Up: Navigation Bar
-
-![](images/NavBar.jpg)
 
 * Mock Up: Sign In Page
 
@@ -147,14 +157,6 @@ Our first milestone consist of:
 * Mock Up: List Restaurants Page
 
 ![](images/ListRestaurant.png)
-
-* Landing Page: Middle Menu
-
-![](images/middlemenu.png)
-
-* Landing Page: Top/Footer Menu
-
-![](images/FooterMenu.jpg)
 
 * Update Booujee Foodie Homepage
 
