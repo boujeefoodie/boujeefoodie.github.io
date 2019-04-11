@@ -128,9 +128,7 @@ server/
 ## [Milestone 1](https://github.com/boujeefoodie/boujeefoodie/projects/1): Mockup development
 Our first milestone consist of:
 
-* [Deployment](https://galaxy.meteor.com/app/boujeefoodie.meteorapp.com)
-
-![](images/galaxy-deployment.png)
+* Deployment of Application in[Galaxy](http://boujeefoodie.meteorapp.com/#/)
 
 * Mock Up: Navigation Bar
 
