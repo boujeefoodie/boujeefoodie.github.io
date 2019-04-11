@@ -27,16 +27,6 @@ Users should be able to indicate preferences and/or food types to exclude in the
 
 For places with weekly or daily changing menus, vendors should be able to login to provide this data.
 
-Possible mockup pages:
-
-* Landing page
-* User home page
-* Vendor home page
-* Admin home page
-* Add Vendor page
-* User profile page
-* Foods available right now page
-* Today’s top picks page
 
 ## Use Case Ideas
 Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
@@ -128,34 +118,27 @@ server/
 ## [Milestone 1](https://github.com/boujeefoodie/boujeefoodie/projects/1): Mockup development
 Our first milestone consist of:
 
-* Deployment of Application in[Galaxy](http://boujeefoodie.meteorapp.com/#/)
+* Deployment of Application in [Galaxy](http://boujeefoodie.meteorapp.com/#/)
 
-* Mock Up: Navigation Bar
+Many of the milestone goals consist of working on the landing page. 
 
-![](images/NavBar.jpg)
+This was split into different task: Navigation Bar, Middle Page, Footer
 
 
-* Landing Page: Middle Landing Page
-
-![](images/middlemenu.png)
-
-* Landing Page: Footer Menu
-
-![](images/FooterMenu.jpg)
-
-* Mock Up: Sign In Page
+Another goal, was to create a page for Users and Admin to sign in.
 
 ![](images/SignIn.jpg)
 
-* Mock Up: User Home Page
+
+Once the User/Admin has logged in, it takes them to the Landing Page which has additional tabs in the Navigation bar.
 
 ![](images/LandingPage.jpg)
 
-* Mock Up: List Restaurants Page
+When the User/Admin clicks on the List Restaurant Page, they are presented with this:
 
 ![](images/ListRestaurant.png)
 
-* Update Booujee Foodie Homepage
+After all these milestone goals are done, we documented our progression and updated our Home Page.
 
 ![](images/update-home-page-1.png)
 
