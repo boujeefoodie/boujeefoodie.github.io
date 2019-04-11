@@ -75,6 +75,53 @@ $ meteor npm run start
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
 
 # Application Design
+
+## Directory structure
+
+The top-level directory structure contains:
+
+```
+app/        # holds the Meteor application sources
+config/     # holds configuration files, such as settings.development.json
+.gitignore  # don't commit IntelliJ project files, node_modules, and settings.production.json
+```
+
+This structure separates configuration files (such as the settings files) in the config/ directory from the actual Meteor application in the app/ directory.
+
+The app/ directory has this top-level structure:
+
+```
+client/
+  lib/           # holds Semantic UI files.
+  head.html      # the <head>
+  main.js        # import all the client-side html and js files. 
+
+imports/
+  api/           # Define collection processing code (client + server side)
+    base/
+    interest/
+    profile/
+  startup/       # Define code to run when system starts up (client-only, server-only)
+    client/        
+    server/        
+  ui/
+    components/  # templates that appear inside a page template.
+    layouts/     # Layouts contain common elements to all pages (i.e. menubar and footer)
+    pages/       # Pages are navigated to by FlowRouter routes.
+    stylesheets/ # CSS customizations, if any.
+
+node_modules/    # managed by Meteor
+
+private/
+  database/      # holds the JSON file used to initialize the database on startup.
+
+public/          
+  images/        # holds static images for landing page and predefined sample users.
+  
+server/
+   main.js       # import all the server-side js files.
+```
+
 # Development History
 
 ## [Milestone 1](https://github.com/boujeefoodie/boujeefoodie/projects/1): Mockup development
