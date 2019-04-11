@@ -145,14 +145,13 @@ Our first milestone consist of:
 
 ![](images/FooterMenu.jpg)
 
-* Mock Up: User Home Page
-
-![](images/LandingPage.jpg)
-
-
 * Mock Up: Sign In Page
 
 ![](images/SignIn.jpg)
+
+* Mock Up: User Home Page
+
+![](images/LandingPage.jpg)
 
 * Mock Up: List Restaurants Page
 
