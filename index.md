@@ -20,11 +20,11 @@ The solution: The Boujee Foodie app enables you to login on your phone and deter
 
 Links:
 
-Galaxy App: http://boujeefoodie.meteorapp.com/#/
+Galaxy App: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 
-GitHub Repo Page: https://github.com/boujeefoodie
+GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoodie)
 
-GitHub Project Management Page: https://github.com/boujeefoodie/boujeefoodie/projects
+GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie)
 
 
 # Installation
