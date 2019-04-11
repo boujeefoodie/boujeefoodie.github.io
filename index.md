@@ -158,7 +158,7 @@ Our first milestone consist of:
 
 * Update Booujee Foodie Homepage
 
-![](images/galaxy-deployment.png)
+![](images/update-home-page-1.png)
 
 ## [Milestone 2](https://github.com/boujeefoodie/boujeefoodie/projects/2)
 
