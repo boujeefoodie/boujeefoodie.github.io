@@ -5,6 +5,7 @@
   * [Beyond the Basics](#beyond-the-basics)
 * [Installation](#installation)
 * [Application Design](#application-design)
+  * [Directory structure](#directory-structure)
 * [Development History](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
 * [Contact Us](#contact-us)
@@ -17,7 +18,7 @@ The solution: The Manoa Munchie app enables you to login on your phone and deter
   * What food is available right now.
   * When a style of food you love is available today.
 
-### Approach
+## Approach
 For this app, you will create a way to organize and present available menu items for all campus locations in a unified manner. There are three roles: Users, who can login to establish preferences for their food choices; Vendors, who can login to specify their choices of the day or otherwise modify their profile data; and Admins, who also can login to define users as having the vendor role and otherwise administer the system.
 
 Your app should provide a consolidated, easy to use source directory of menu items taken from the UHM Food Vendors and Manoa Dining Services. In addition to organizing menus by vendor, you should also organize the data by menu item type (ethnicity, vegan, etc.).
@@ -58,7 +59,7 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, [download a copy of BowFolios](https://github.com/boujeefoodie/boujeefoodie/archive/master.zip), or clone it using git.
+Second, [download a copy of Boujee Foodie](https://github.com/boujeefoodie/boujeefoodie/archive/master.zip), or clone it using git.
   
 Third, cd into the app/ directory and install libraries with:
 
@@ -75,9 +76,56 @@ $ meteor npm run start
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
 
 # Application Design
+
+## Directory structure
+
+The top-level directory structure contains:
+
+```
+app/        # holds the Meteor application sources
+config/     # holds configuration files, such as settings.development.json
+.gitignore  # don't commit IntelliJ project files, node_modules, and settings.production.json
+```
+
+This structure separates configuration files (such as the settings files) in the config/ directory from the actual Meteor application in the app/ directory.
+
+The app/ directory has this top-level structure:
+
+```
+client/
+  lib/           # holds Semantic UI files.
+  head.html      # the <head>
+  main.js        # import all the client-side html and js files. 
+
+imports/
+  api/           # Define collection processing code (client + server side)
+    base/
+    interest/
+    profile/
+  startup/       # Define code to run when system starts up (client-only, server-only)
+    client/        
+    server/        
+  ui/
+    components/  # templates that appear inside a page template.
+    layouts/     # Layouts contain common elements to all pages (i.e. menubar and footer)
+    pages/       # Pages are navigated to by FlowRouter routes.
+    stylesheets/ # CSS customizations, if any.
+
+node_modules/    # managed by Meteor
+
+private/
+  database/      # holds the JSON file used to initialize the database on startup.
+
+public/          
+  images/        # holds static images for landing page and predefined sample users.
+  
+server/
+   main.js       # import all the server-side js files.
+```
+
 # Development History
 
-## Milestone 1: Mockup development
+## [Milestone 1](https://github.com/boujeefoodie/boujeefoodie/projects/1): Mockup development
 Our first milestone consist of:
 
 * Deployment
@@ -94,9 +142,6 @@ https://github.com/boujeefoodie/boujeefoodie/projects/1
 ## Contact Us
 
 Jetro Butac: jetro@hawaii.edu 
-
 Ryan Li: ryanli80@hawaii.edu
-
 Kevin Liu: liukevin@hawaii.edu
-
 Jonathan Tu: jltu@hawaii.edu
