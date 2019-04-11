@@ -139,7 +139,7 @@ When the User/Admin clicks on the List Restaurant Page, they are presented with 
 
 ![](images/ListRestaurant.png)
 
-After all these milestone goals are done, we documented our progression and updated our Home Page.
+After all these milestone goals are done, we documented our progression and updated our [Github.io page](https://boujeefoodie.github.io/).
 
 ![](images/update-home-page-1.png)
 
