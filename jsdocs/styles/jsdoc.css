@@ -585,7 +585,7 @@ span.param-type, .params td .param-type, .param-type dd {
   }
 
   nav {
-    background: #FFF;
+    background: grey;
     width: 250px;
     height: 100%;
     position: fixed;
