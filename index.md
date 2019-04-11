@@ -137,7 +137,7 @@ Our first milestone consist of:
 ![](images/NavBar.jpg)
 
 
-* Landing Page: Middle Menu
+* Landing Page: Middle Landing Page
 
 ![](images/middlemenu.png)
 
