@@ -160,7 +160,7 @@ Our first milestone consist of:
 
 ![](images/galaxy-deployment.png)
 
-## [Milestone 2](https://github.com/boujeefoodie/boujeefoodie/projects/2): Mockup development
+## [Milestone 2](https://github.com/boujeefoodie/boujeefoodie/projects/2)
 
 ## Contact Us
 
