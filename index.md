@@ -124,7 +124,7 @@ Many of the milestone goals consist of working on the landing page.
 
 This was split into different task: Navigation Bar, Middle Page, Footer
 
-![](images/homepage.jpg)
+![](images/homepage.png)
 
 Another goal, was to create a page for Users and Admin to sign in.
 
