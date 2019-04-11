@@ -58,7 +58,7 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, [download a copy of BowFolios](https://github.com/boujeefoodie/boujeefoodie/archive/master.zip), or clone it using git.
+Second, [download a copy of Boujee Foodie](https://github.com/boujeefoodie/boujeefoodie/archive/master.zip), or clone it using git.
   
 Third, cd into the app/ directory and install libraries with:
 
@@ -77,7 +77,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 # Application Design
 # Development History
 
-## Milestone 1: Mockup development
+## [Milestone 1](https://github.com/boujeefoodie/boujeefoodie/projects/1): Mockup development
 Our first milestone consist of:
 
 * Deployment
