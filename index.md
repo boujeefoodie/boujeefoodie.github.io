@@ -134,6 +134,7 @@ Our first milestone consist of:
 * Mock Up: Sign In Page
 * Mock Up: Sign Up Page
 * Landing Page: Middle Menu
+![](images/middle menu.png)
 * Landing Page: Top/Footer Menu
 * Updatae Booujee Foodie Homepage
 
