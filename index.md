@@ -129,6 +129,9 @@ server/
 Our first milestone consist of:
 
 * Deployment
+
+![](images/galaxy-deployment.png)
+
 * Mock Up: User Home Page
 * Mock Up: User Profile Page
 * Mock Up: Sign In Page
