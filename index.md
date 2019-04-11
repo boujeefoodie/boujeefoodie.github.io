@@ -134,6 +134,9 @@ Our first milestone consist of:
 * Mock Up: Sign In Page
 * Mock Up: Sign Up Page
 * Landing Page: Middle Menu
+
+![](images/middlemenu.png)
+
 * Landing Page: Top/Footer Menu
 * Updatae Booujee Foodie Homepage
 
@@ -141,7 +144,10 @@ https://github.com/boujeefoodie/boujeefoodie/projects/1
 
 ## Contact Us
 
-Jetro Butac: jetro@hawaii.edu 
+Jetro Butac: jetro@hawaii.edu
+
 Ryan Li: ryanli80@hawaii.edu
+
 Kevin Liu: liukevin@hawaii.edu
+
 Jonathan Tu: jltu@hawaii.edu
