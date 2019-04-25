@@ -26,6 +26,38 @@ GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoo
 
 GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie/boujeefoodie/projects)
 
+# Guided Tour
+
+Boujee Foodie Portal is deployed via Galaxy with this link: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
+
+After clicking the link, you will be in the landing page which is show below
+
+- boujee foodie landing page
+
+You will need to create an account. You can do this by clicking the login at the top right corner and then clicking sign up.
+
+![](images/signup.png)
+
+Please enter a valid email and password.
+
+Once logged in you will be greeted with the landing page again, but with more options in the top menu.
+
+As a user, you will have the option of viewing the restaurants that are available around UH.
+
+You will be able to see the name, address, images, description and price range of each restaurants in this page.
+
+![](images/ListRestaurant.png	)
+
+If you are an Admin User, your navigation bar will have more functions than a regular user
+
+Admins have an option to add restaurant to website. Admins will have to input the restaurants name, description, an link to the restaurants image, a description about the restaurant and the price range in the indicated by amount '$' out of three being one being the cheapest and 3 being expensive.
+
+![](images/AddRestaurantAdmin.png)
+
+
+Admins in their list restaurant that enables them to edit the page 
+
+
 
 # Installation
 
