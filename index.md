@@ -42,6 +42,8 @@ Please enter a valid email and password.
 
 Once logged in you will be greeted with the landing page again, but with more options in the top menu.
 
+- Landing Page User Image
+
 As a user, you will have the option of viewing the restaurants that are available around UH.
 
 You will be able to see the name, address, images, description and price range of each restaurants in this page.
@@ -50,13 +52,15 @@ You will be able to see the name, address, images, description and price range o
 
 If you are an Admin User, your navigation bar will have more functions than a regular user
 
+- Landing Page Admin Image
+
 Admins have an option to add restaurant to website. Admins will have to input the restaurants name, description, an link to the restaurants image, a description about the restaurant and the price range in the indicated by amount '$' out of three being one being the cheapest and 3 being expensive.
 
 ![](images/AddRestaurantAdmin.png)
 
+Admins also have the power to edit the restaurant page in case restaurants change their hours.
 
-Admins in their list restaurant that enables them to edit the page 
-
+![](images/ListRestaurantAdmin.png)
 
 
 # Installation
@@ -130,34 +134,52 @@ server/
 # Development History
 
 ## [Milestone 1](https://github.com/boujeefoodie/boujeefoodie/projects/1): Mockup development
-Our first milestone consist of:
+
+This milestone started on the 5th of April 2019 to 11th of April 2019
+
+The goal of Milestone 1 was to create a set of HTML pages to provide a mockup for the pages that will be in our application. This mockup was developed as a Meteor app. We then later deployed this mockups into Galaxy.
 
 * Deployment of Application in [Galaxy](http://boujeefoodie.meteorapp.com/#/)
 
-Many of the milestone goals consist of working on the landing page. 
+Mockups for the following pages were implement during M1:
 
-This was split into different task: Navigation Bar, Middle Page, Footer
+Home Page:
 
 ![](images/homepage.png)
 
-Another goal, was to create a page for Users and Admin to sign in.
+Sign In:
 
 ![](images/SignIn.jpg)
 
-Once the User/Admin has logged in, it takes them to the Landing Page which has additional tabs in the Navigation bar.
+Landing Page:
 
 ![](images/LandingPage.jpg)
 
-When the User/Admin clicks on the List Restaurant Page, they are presented with this:
+List Restaurants:
 
 ![](images/ListRestaurant.png)
 
-After all these milestone goals are done, we documented our progression and updated our [Github.io page](https://boujeefoodie.github.io/).
-
-![](images/update-home-page-1.png)
 
 ## [Milestone 2](https://github.com/boujeefoodie/boujeefoodie/projects/2)
 
+Our goal for Milestone 2 was to add functionality to the Mockups that were created in Milestone 1. We also added an admin in order to keep the website organized.
+
+Updated Home/Landing Page:
+
+Add Restaurant:
+
+![](images/AddRestaurantAdmin.png)
+
+Edit Housing:
+
+![](images/EditRestaurant.png)
+
+Add Review:
+
+
+
+
+Add Review: 
 # Contact Us
 
 Jetro Butac: jetro@hawaii.edu
