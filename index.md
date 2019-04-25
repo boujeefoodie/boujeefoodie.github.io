@@ -1,8 +1,6 @@
 # Table of Contents
-* [About Boujee Foodie](#about-boujee-foodie)
-  * [Approach](#approach)
-  * [Use Case Ideas](#use-case-ideas)
-  * [Beyond the Basics](#beyond-the-basics)
+* [Boujee Foodie Overview](#boujee-foodie-overview)
+* [User Guide](#user-guide)
 * [Installation](#installation)
 * [Application Design](#application-design)
   * [Directory structure](#directory-structure)
@@ -10,32 +8,30 @@
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
 * [Contact Us](#contact-us)
 
-# About Boujee Foodie
-The problem: There are many food choices on campus: campus center, food trucks, Manoa Gardens, Paradise Palms, vending machines, and so forth. Let’s say you have a desire for chinese food today for lunch. What places on campus are serving chinese food menu items today? Alternatively, let’s say that you love the fresh salmon fillet at Campus Center, but that dish is only served once every few weeks. How do you find out on the day that it’s available?
+# Boujee Foodie Overview
+There are many food choices on campus: campus center, food trucks, Manoa Gardens, Paradise Palms, vending machines, and so forth. With Boujee Foodie, all users can find nearby restaurants at UH Manoa in no time! 
 
-The solution: The Boujee Foodie app enables you to login on your phone and determine:
+Boujee Foodie is a website that allows individuals, particularly students and faculty, to view the available restaurants on the UH Manoa. In addition, it specifies the restaurant information for each vendor available, allows users to check community reviews as well as add their own reviews, and locates the various restaurants on campus.
+
+Boujee Foodie enables you to login and determine:
   * What specific menu items will be available today at campus center locations;
   * What food is available right now.
   * When a style of food you love is available today.
 
 Links:
 
-Galaxy App: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
-
+Deployted Website: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoodie)
-
 GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie/boujeefoodie/projects)
 
-# Guided Tour
+# User Guide
 
 Boujee Foodie Portal is deployed via Galaxy with this link: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 
-After clicking the link, you will be in the landing page which is show below
+At the site, the user will be arrive onto the Landing Page shown below.
+![](images/LandingPage.jpg)
 
-- boujee foodie landing page
-
-You will need to create an account. You can do this by clicking the login at the top right corner and then clicking sign up.
-
+Next, the user will need to create an account. You can do this by clicking the login at the top right corner and then clicking sign up.
 ![](images/signup.png)
 
 Please enter a valid email and password.
@@ -162,9 +158,10 @@ List Restaurants:
 
 ## [Milestone 2](https://github.com/boujeefoodie/boujeefoodie/projects/2)
 
-Our goal for Milestone 2 was to add functionality to the Mockups that were created in Milestone 1. We also added an admin in order to keep the website organized.
+Our goal for Milestone 2 was to add functionality to the Mockups that were created in Milestone 1. Thus, we added a variety of issues. For starters, we added an AddRestaurant page and EditRestaurant page. In addition, we also implemented a Restaurant Description page that would display a specific restaurant's information as well as its reviews. Consequently, we added functionality to the review section on that page. We also updated our Footer and NavBar to match the website theme and added link references. Then, we finally made an Admin user that is able to add/edit/delete restaurants.
 
 Updated Home/Landing Page:
+![](images/LandingPage.png)
 
 Add Restaurant:
 
