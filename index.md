@@ -29,7 +29,7 @@ GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoo
 GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie/boujeefoodie/projects)
 
 # User Guide
-#### Regular Users
+## Regular Users
 Boujee Foodie is currently deployed via Galaxy with this link: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 
 At the site, you must create a new account or sign into a currently-existing account.
@@ -50,7 +50,7 @@ In order to see the restaurants available, you must click "List All Restaurants"
 If you wish to see more information regarding a certain restaurant, clicking the "View Restaurant" button will redirect you to the Restaurant Page, displaying the description of the selected restaurant.
 ![](images/M2/RestaurantPage2.png)
 
-#### Admin Users
+## Admin Users
 If you are an Admin User, after logging in, your navigation bar will have more functions than a regular user, having the option to "Add Restaurant" as well. 
 ![](images/M2/AdminHomePage2.png)
 
