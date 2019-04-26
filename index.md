@@ -1,11 +1,13 @@
 # Table of Contents
 * [Boujee Foodie Overview](#boujee-foodie-overview)
 * [User Guide](#user-guide)
-* [Installation](#installation)
+* [Developer Guide](#developer-guide)
+  * [Installation](#installation)
 * [Application Design](#application-design)
   * [Directory structure](#directory-structure)
 * [Development History](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  * [Milestone 2: Mockup development](#milestone-2-mockup-development)
 * [Contact Us](#contact-us)
 
 # Boujee Foodie Overview
@@ -18,33 +20,25 @@ Boujee Foodie enables you to login and determine:
   * What food is available right now.
   * When a style of food you love is available today.
 
-Links:
-
-Deployted Website: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
+#####Links:
+Deployed Website: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoodie)
 GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie/boujeefoodie/projects)
 
 # User Guide
+Boujee Foodie is currently deployed via Galaxy with this link: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 
-Boujee Foodie Portal is deployed via Galaxy with this link: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
+At the site, you must create a new account or sign into a currently-existing account.
+![](images/M2/LandingPage2.jpg)
 
-At the site, the user will be arrive onto the Landing Page shown below.
-![](images/LandingPage.jpg)
+Next, you will need to create an account. You can do this by clicking the login at the top right corner and then clicking "Sign Up". Please enter a valid email and password.
+![](images/M2/SignUp2.png)
 
-Next, the user will need to create an account. You can do this by clicking the login at the top right corner and then clicking sign up.
-![](images/signup.png)
+Once you have logged in, you will be greeted with the Home Page, allowing more options to select in the NavBar. As a user, you will have the option of viewing the restaurants that are available around UH.
+![](images/M2/HomePage2.png)
 
-Please enter a valid email and password.
-
-Once logged in you will be greeted with the landing page again, but with more options in the top menu.
-
-- Landing Page User Image
-
-As a user, you will have the option of viewing the restaurants that are available around UH.
-
-You will be able to see the name, address, images, description and price range of each restaurants in this page.
-
-![](images/ListRestaurant.png	)
+In order to see the restaurants available, you must click "List All Restaurants". On this page, you will be able to see the name, address, images, description and price range of each restaurants.
+![](images/M2/ListRestaurant2.png	)
 
 If you are an Admin User, your navigation bar will have more functions than a regular user
 
@@ -52,14 +46,15 @@ If you are an Admin User, your navigation bar will have more functions than a re
 
 Admins have an option to add restaurant to website. Admins will have to input the restaurants name, description, an link to the restaurants image, a description about the restaurant and the price range in the indicated by amount '$' out of three being one being the cheapest and 3 being expensive.
 
-![](images/AddRestaurantAdmin.png)
+![](images/M1/AddRestaurantAdmin.png)
 
 Admins also have the power to edit the restaurant page in case restaurants change their hours.
 
-![](images/ListRestaurantAdmin.png)
+![](images/M1/ListRestaurantAdmin.png)
 
 
-# Installation
+# Developer Guide
+## Installation
 
 First, [install Meteor](https://www.meteor.com/install).
 
@@ -82,7 +77,6 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 # Application Design
 
 ## Directory structure
-
 The top-level directory structure contains:
 
 ```
@@ -90,7 +84,6 @@ app/        # holds the Meteor application sources
 config/     # holds configuration files, such as settings.development.json
 .gitignore  # don't commit IntelliJ project files, node_modules, and settings.production.json
 ```
-
 This structure separates configuration files (such as the settings files) in the config/ directory from the actual Meteor application in the app/ directory.
 
 The app/ directory has this top-level structure:
@@ -121,14 +114,13 @@ private/
   database/      # holds the JSON file used to initialize the database on startup.
 
 public/          
-  images/        # holds static images for landing page and predefined sample users.
+  images/M1/        # holds static images for landing page and predefined sample users.
   
 server/
    main.js       # import all the server-side js files.
 ```
 
 # Development History
-
 ## [Milestone 1](https://github.com/boujeefoodie/boujeefoodie/projects/1): Mockup development
 
 This milestone started on the 5th of April 2019 to 11th of April 2019
@@ -137,48 +129,38 @@ The goal of Milestone 1 was to create a set of HTML pages to provide a mockup fo
 
 * Deployment of Application in [Galaxy](http://boujeefoodie.meteorapp.com/#/)
 
-Mockups for the following pages were implement during M1:
-
+Mockups for the following pages were implemented during M1:
 Home Page:
-
-![](images/homepage.png)
+![](images/M1/homepage.png)
 
 Sign In:
-
-![](images/SignIn.jpg)
+![](images/M1/SignIn.jpg)
 
 Landing Page:
-
-![](images/LandingPage.jpg)
+![](images/M1/LandingPage.jpg)
 
 List Restaurants:
+![](images/M1/ListRestaurant.png)
 
-![](images/ListRestaurant.png)
 
+## [Milestone 2](https://github.com/boujeefoodie/boujeefoodie/projects/2): Mockup development
 
-## [Milestone 2](https://github.com/boujeefoodie/boujeefoodie/projects/2)
-
-Our goal for Milestone 2 was to add functionality to the Mockups that were created in Milestone 1. Thus, we added a variety of issues. For starters, we added an AddRestaurant page and EditRestaurant page. In addition, we also implemented a Restaurant Description page that would display a specific restaurant's information as well as its reviews. Consequently, we added functionality to the review section on that page. We also updated our Footer and NavBar to match the website theme and added link references. Then, we finally made an Admin user that is able to add/edit/delete restaurants.
+Our goal for Milestone 2 was to add functionality to the Mockups that were created in Milestone 1. Thus, we added a variety of issues. For starters, we added an AddRestaurant page and EditRestaurant page. In addition, we also implemented a Restaurant Description page that would display a specific restaurant's information as well as its reviews. Consequently, we added functionality to the review section on that page. We also updated our Footer, NavBar, and Landing Page to match the website theme and functionality. Then, we finally made an Admin user that is able to add/edit/delete restaurants.
 
 Updated Home/Landing Page:
-![](images/LandingPage.png)
+![](images/M2/LandingPage2.jpg)
 
-Add Restaurant:
+AddRestaurant:
+![](images/M2/AddRestaurant2.png)
 
-![](images/AddRestaurantAdmin.png)
+EditRestaurant:
+![](images/M2/EditRestaurant2.png)
 
-Edit Housing:
-
-![](images/EditRestaurant.png)
-
-Add Review:
-
+RestaurantDescription:
+![](images/M2/RestaurantDescription.png)
 
 
-
-Add Review: 
 # Contact Us
-
 Jetro Butac: jetro@hawaii.edu
 
 Ryan Li: ryanli80@hawaii.edu
