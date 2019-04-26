@@ -1,6 +1,8 @@
 # Table of Contents
 * [Boujee Foodie Overview](#boujee-foodie-overview)
 * [User Guide](#user-guide)
+  * [Regular Users](#regular-users)
+  * [Admin Users](#admin-users)
 * [Developer Guide](#developer-guide)
   * [Installation](#installation)
 * [Application Design](#application-design)
@@ -8,6 +10,7 @@
 * [Development History](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2: Mockup development](#milestone-2-mockup-development)
+  * [Milestone 3: Mockup development](#milestone-3-mockup-development)
 * [Contact Us](#contact-us)
 
 # Boujee Foodie Overview
@@ -26,6 +29,7 @@ GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoo
 GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie/boujeefoodie/projects)
 
 # User Guide
+#### Regular Users
 Boujee Foodie is currently deployed via Galaxy with this link: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 
 At the site, you must create a new account or sign into a currently-existing account.
@@ -34,28 +38,34 @@ At the site, you must create a new account or sign into a currently-existing acc
 Next, you will need to create an account. You can do this by clicking the login at the top right corner and then clicking "Sign Up". Please enter a valid email and password.
 ![](images/M2/SignUp2.png)
 
+Otherwise, if you already have an account, please login using the "Sign In" tab, entering your email and password.
+![](images/M2/SignIn2.png)
+
 Once you have logged in, you will be greeted with the Home Page, allowing more options to select in the NavBar. As a user, you will have the option of viewing the restaurants that are available around UH.
 ![](images/M2/HomePage2.png)
 
 In order to see the restaurants available, you must click "List All Restaurants". On this page, you will be able to see the name, address, images, description and price range of each restaurants.
-![](images/M2/ListRestaurant2.png	)
+![](images/M2/ListRestaurant2.png)
 
-If you are an Admin User, your navigation bar will have more functions than a regular user
+If you wish to see more information regarding a certain restaurant, clicking the "View Restaurant" button will redirect you to the Restaurant Page, displaying the description of the selected restaurant.
+![](images/M2/RestaurantPage2.png)
 
-- Landing Page Admin Image
+#### Admin Users
+If you are an Admin User, after logging in, your navigation bar will have more functions than a regular user, having the option to "Add Restaurant" as well. 
+![](images/M2/AdminHomePage2.png)
 
-Admins have an option to add restaurant to website. Admins will have to input the restaurants name, description, an link to the restaurants image, a description about the restaurant and the price range in the indicated by amount '$' out of three being one being the cheapest and 3 being expensive.
+In the Add Restaurant page, admins will have to input the restaurants name, description, an link to the restaurants image, a description about the restaurant and the price range in the indicated by amount '$' out of three being one being the cheapest and 3 being expensive.
+![](images/M2/AddRestaurantAdmin2.png)
 
-![](images/M1/AddRestaurantAdmin.png)
+The admin's List Restaurant page will also vary, with added buttons to edit and delete restaurants. Deleting a restaurant will prompt the user to confirm the deletion before removing it from the Restaurants collection.
+![](images/M2/ListRestaurantAdmin2.png)
 
-Admins also have the power to edit the restaurant page in case restaurants change their hours.
-
-![](images/M1/ListRestaurantAdmin.png)
+Admins also have the power to edit the restaurant page. The "Edit" button redirects you to change the current information listed for the restaurant.
+![](images/M2/EditRestaurantAdmin2.png)
 
 
 # Developer Guide
 ## Installation
-
 First, [install Meteor](https://www.meteor.com/install).
 
 Second, [download a copy of Boujee Foodie](https://github.com/boujeefoodie/boujeefoodie/archive/master.zip), or clone it using git.
@@ -145,20 +155,32 @@ List Restaurants:
 
 ## [Milestone 2](https://github.com/boujeefoodie/boujeefoodie/projects/2): Mockup development
 
-Our goal for Milestone 2 was to add functionality to the Mockups that were created in Milestone 1. Thus, we added a variety of issues. For starters, we added an AddRestaurant page and EditRestaurant page. In addition, we also implemented a Restaurant Description page that would display a specific restaurant's information as well as its reviews. Consequently, we added functionality to the review section on that page. We also updated our Footer, NavBar, and Landing Page to match the website theme and functionality. Then, we finally made an Admin user that is able to add/edit/delete restaurants.
+Our goal for Milestone 2 was to add functionality to the Mockups that were created in Milestone 1. For starters, we added an AddRestaurant page and EditRestaurant page specific to Admin users. In addition, we also implemented a Restaurant Page that would display a specific restaurant's information as well as its reviews. We also updated our Footer, NavBar, and Landing Page to match the website theme and functionality. Then, we finally made an Admin user that is able to add/edit/delete restaurants.
 
-Updated Home/Landing Page:
+Updated Landing Page:
 ![](images/M2/LandingPage2.jpg)
 
-AddRestaurant:
-![](images/M2/AddRestaurant2.png)
+Updated User Home Page:
+![](images/M2/HomePage2.png)
+
+Updated Admin Home Page:
+![](images/M2/AdminHomePage2.png)
+
+ListRestaurantAdmin Page:
+![](images/M2/ListRestaurantAdmin2.png)
+
+AddRestaurant Page:
+![](images/M2/AddRestaurantAdmin2.png)
 
 EditRestaurant:
-![](images/M2/EditRestaurant2.png)
+![](images/M2/EditRestaurantAdmin2.png)
 
 RestaurantDescription:
-![](images/M2/RestaurantDescription.png)
+![](images/M2/RestaurantPage2.png)
 
+## [Milestone 3](https://github.com/boujeefoodie/boujeefoodie/projects/3): Mockup development
+
+We plan to clean up the code and aesthetics of the web application, implement a search bar, and implement Google Maps.
 
 # Contact Us
 Jetro Butac: jetro@hawaii.edu
