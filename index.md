@@ -20,7 +20,7 @@ Boujee Foodie enables you to login and determine:
   * What food is available right now.
   * When a style of food you love is available today.
 
-#####Links:
+# Links:
 Deployed Website: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoodie)
 GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie/boujeefoodie/projects)
