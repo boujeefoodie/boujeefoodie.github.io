@@ -199,6 +199,22 @@ Implementation of Search Bar in the Home Page:
 
 ![](images/M3/SearchBar.png)
 
+# Community Feedback
+Here are some of the feedback that we have recieved from the community when we sent out and asked some people to visit our website and provide some input. Overall, the responses were fairly positive and provided some good feedback and suggestions for improvement. 
+Below are some screenshots of responses from an anonymous survey we gave out to the community. 
+
+![](images/M3/Often.png)
+![](images/M3/Valuable.png) 
+
+Here are some favorites and improvement suggestions for our website. 
+
+![](images/M3/Favorite.png)
+![](images/M3/Suggestions.png)
+
+Here are their overall impressions of our website. 
+
+![](images/M3/Overall.png)
+
 # Contact Us
 Jetro Butac: jetro@hawaii.edu
 
