@@ -201,6 +201,10 @@ Implementation of Search Bar in the Home Page:
 
 ![](images/M3/SearchBar.png)
 
+Implementation of a Menu in the Restaurant Page:
+
+![](images/M3/Menu.png)
+
 # Community Feedback
 Here are some of the feedback that we have recieved from the community when we sent out and asked some people to visit our website and provide some input. Overall, the responses were fairly positive and provided some good feedback and suggestions for improvement. 
 Below are some screenshots of responses from an anonymous survey we gave out to the community. 
