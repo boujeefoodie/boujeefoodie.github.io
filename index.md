@@ -33,7 +33,7 @@ GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/pr
 Boujee Foodie is currently deployed via Galaxy with this link: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
 
 At the site, you must create a new account or sign into a currently-existing account.
-![](images/M2/LandingPage2.jpg)
+![](images/M3/LandingPage3.jpg)
 
 Next, you will need to create an account. You can do this by clicking the login at the top right corner and then clicking "Sign Up". Please enter a valid email and password.
 ![](images/M2/SignUp2.png)
@@ -42,13 +42,25 @@ Otherwise, if you already have an account, please login using the "Sign In" tab,
 ![](images/M2/SignIn2.png)
 
 Once you have logged in, you will be greeted with the Home Page, allowing more options to select in the NavBar. As a user, you will have the option of viewing the restaurants that are available around UH.
-![](images/M2/HomePage2.png)
+![](images/M3/HomePage3.png)
+
+You can search a restaurant by name that has been recommended by you friends and family in the Home Page.
+![](images/M3/SearchBar.png)
 
 In order to see the restaurants available, you must click "List All Restaurants". On this page, you will be able to see the name, address, images, description and price range of each restaurants.
-![](images/M2/ListRestaurant2.png)
+![](images/M3/ListRestaurant3.png)
 
 If you wish to see more information regarding a certain restaurant, clicking the "View Restaurant" button will redirect you to the Restaurant Page, displaying the description of the selected restaurant.
-![](images/M2/RestaurantPage2.png)
+![](images/M3/RestaurantPage3.png)
+
+As a user, you will be able to leave a review for a specific restaurant page. You can leave a star rating of 1-5 and a constructive criticism of the experience and the food of a desired restaurant.
+
+You can also see what other Foodies think about these restaurant
+![](images/M3/review.png)
+
+
+
+
 
 ## Admin Users
 If you are an Admin User, after logging in, your navigation bar will have more functions than a regular user, having the option to "Add Restaurant" as well. 
@@ -58,7 +70,7 @@ In the Add Restaurant page, admins will have to input the restaurants name, desc
 ![](images/M2/AddRestaurantAdmin2.png)
 
 The admin's List Restaurant page will also vary, with added buttons to edit and delete restaurants. Deleting a restaurant will prompt the user to confirm the deletion before removing it from the Restaurants collection.
-![](images/M2/ListRestaurantAdmin2.png)
+![](images/M3/ListRestuaurantAdmin3.png)
 
 Admins also have the power to edit the restaurant page. The "Edit" button redirects you to change the current information listed for the restaurant.
 ![](images/M2/EditRestaurantAdmin2.png)
@@ -180,7 +192,15 @@ RestaurantDescription:
 
 ## [Milestone 3](https://github.com/boujeefoodie/boujeefoodie/projects/3): Mockup development
 
-We plan to clean up the code and aesthetics of the web application, implement a search bar, and implement Google Maps.
+We plan to clean up the code and aesthetics of the web application, implement a search bar and to implement a review system.
+
+Implementation of Add Review and Review:
+
+![](images/M3/review.png)
+
+Implementation of Search Bar in the Home Page:
+
+![](images/M3/SearchBar.png)
 
 # Contact Us
 Jetro Butac: jetro@hawaii.edu
