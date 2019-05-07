@@ -53,9 +53,7 @@ In order to see the restaurants available, you must click "List All Restaurants"
 If you wish to see more information regarding a certain restaurant, clicking the "View Restaurant" button will redirect you to the Restaurant Page, displaying the description of the selected restaurant.
 ![](images/M3/RestaurantPage3.png)
 
-As a user, you will be able to leave a review for a specific restaurant page. You can leave a star rating of 1-5 and a constructive criticism of the experience and the food of a desired restaurant.
-
-You can also see what other Foodies think about these restaurant
+As a user, you will be able to leave a review for a specific restaurant page. You can leave a star rating of 1-5 and a constructive criticism of the experience and the food of a desired restaurant. You can also see what other Foodies think about these restaurants and how their food taste or what's poppin!
 ![](images/M3/review.png)
 
 
@@ -191,8 +189,7 @@ RestaurantDescription:
 ![](images/M2/RestaurantPage2.png)
 
 ## [Milestone 3](https://github.com/boujeefoodie/boujeefoodie/projects/3): Mockup development
-
-We plan to clean up the code and aesthetics of the web application, implement a search bar and to implement a review system.
+ For the final milestone, our goal was to fix minor changes with the website dealing with aesthetics and implementing a couple functions for the users. One of the goals was to clean any errors in ESlint and any unnecessary files that was not related to our project. Another goal was to implement a search bar for users and admins to be able to search up any restaurants that was in our database. We also implemented a review system in order give powers to our users to give their opinions about restaurants in the database.
 
 Implementation of Add Review and Review:
 
