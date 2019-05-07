@@ -218,10 +218,10 @@ Here are their overall impressions of our website.
 ![](images/M3/Overall.png)
 
 # Contact Us
-Jetro Butac: https://bjethro.github.io/
+Jetro Butac: [https://bjethro.github.io/](https://bjethro.github.io/) 
 
-Ryan Li: https://ryanli98.github.io/
+Ryan Li: [https://ryanli98.github.io/](https://ryanli98.github.io/)
 
-Kevin Liu: https://liukevin.github.io
+Kevin Liu: [https://liukevin.github.io](https://liukevin.github.io)
 
-Jonathan Tu: https://jltu.github.io
+Jonathan Tu: [https://jltu.github.io](https://jltu.github.io)
