@@ -25,7 +25,9 @@ Boujee Foodie enables you to login and determine:
 
 # Links:
 Deployed Website: [http://boujeefoodie.meteorapp.com/#/](http://boujeefoodie.meteorapp.com/#/)
+
 GitHub Repo Page: [https://github.com/boujeefoodie](https://github.com/boujeefoodie)
+
 GitHub Project Management Page: [https://github.com/boujeefoodie/boujeefoodie/projects](https://github.com/boujeefoodie/boujeefoodie/projects)
 
 # User Guide
@@ -200,10 +202,10 @@ Implementation of Search Bar in the Home Page:
 ![](images/M3/SearchBar.png)
 
 # Contact Us
-Jetro Butac: jetro@hawaii.edu
+Jetro Butac: https://bjethro.github.io/
 
-Ryan Li: ryanli80@hawaii.edu
+Ryan Li: https://ryanli98.github.io/
 
-Kevin Liu: liukevin@hawaii.edu
+Kevin Liu: https://liukevin.github.io
 
-Jonathan Tu: jltu@hawaii.edu
+Jonathan Tu: https://jltu.github.io
